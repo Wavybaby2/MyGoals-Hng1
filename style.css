@@ -1,0 +1,143 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  margin: 0px;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  font-size: 16px;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: violet;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  justify-content: center;
+  
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: flex;
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+
+}
+ 
+.nav {
+  justify-content: center;
+  display: ;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
+
+.Home {
+  background-color: rgb(135, 190, 57);
+  
+}
+
+
+.nav-links {
+  cursor: pointer;
+}
+.hng{
+  color: white;
+}
+
+.hng:hover {
+  color: aqua;
+}
+
+.image {
+  margin-left: 10px;
+ 
+}
+
+.intro {
+  background-color: greenyellow;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+
+}
+
+.intro:hover {
+  background-color: greenyellow;
+  color: #ec6931;
+}
+.first {
+  margin-left: 8px;
+  color: #2a2a2a;
+}
+
+.About {
+  background-color: #fcf4e2; 
+}
+
+.About:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.second:hover {
+  color: rgb(68, 66, 66);
+  
+}
+
+.contact {
+  background-color: #c4edb1;
+  
+  
+}
+.name {
+  color: #901010;
+}
+.email {
+  color: #901010;
+}
+
+#CurrentTimeUTC {
+  color: blue;
+  margin-left: 30px;
+ 
+}
+#CurrentDayOfTheWeek {
+  color: blue;
+  margin-left: 30px;
+ 
+}
+
+.resources {
+  background-color: #f5c5b1;
+ 
+}
+
+.footer {
+  background-color: rgb(9, 8, 8);
+}
+
+.foot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last {
+  color: white;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
